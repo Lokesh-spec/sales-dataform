@@ -1,0 +1,5 @@
+defaultProject: tribal-bay-463819-n1
+defaultLocation: EU
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0
