@@ -1,0 +1,17 @@
+config {
+  type: "table"
+}
+
+SELECT
+  ORDERNUMBER,
+  ORDERDATE,
+  STATUS,
+  QTR_ID,
+  MONTH_ID,
+  YEAR_ID,
+  PRODUCTCODE,
+  CUSTOMERNAME,
+  QUANTITYORDERED,
+  PRICEEACH,
+  SALES
+FROM ${ref("stg_orders")}

@@ -1,0 +1,10 @@
+config {
+  type: "table"
+}
+
+SELECT
+  PRODUCTCODE,
+  SUM(SALES) AS total_sales,
+  SUM(QUANTITYORDERED) AS total_quantity
+FROM ${ref("fact_orders")}
+GROUP BY PRODUCTCODE

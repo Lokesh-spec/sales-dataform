@@ -1,0 +1,10 @@
+config {
+  type: "table"
+}
+
+SELECT
+  CUSTOMERNAME,
+  SUM(SALES) AS total_sales,
+  COUNT(DISTINCT ORDERNUMBER) AS total_orders
+FROM ${ref("fact_orders")}
+GROUP BY CUSTOMERNAME

@@ -1,5 +1,4 @@
-defaultProject: tribal-bay-463819-n1
-defaultLocation: EU
-defaultDataset: dataform
-defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.0
+defaultProject: "tribal-bay-463819-n1"
+defaultDataset: "sales_data"
+defaultLocation: "europe-west2"
+defaultAssertionDataset: "sales_data_assertions"

@@ -1,0 +1,9 @@
+config {
+  type: "table"
+}
+
+SELECT
+  DISTINCT PRODUCTCODE,
+  PRODUCTLINE,
+  MSRP
+FROM ${ref("stg_orders")}
